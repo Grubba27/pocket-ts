@@ -76,6 +76,6 @@ const posts = get("posts").create({
 
 As you can see the prints below I can use the types in my code.
 
-[!typesafe](./readme-assets/img/typesafe.png)
+![typesafe](./readme-assets/img/typesafe.png)
 
 
