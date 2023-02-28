@@ -16,8 +16,7 @@ run the Frontend:
 $ npm install
 $ npm start
 ```
-Go to the pocket page and add a record (click the button).
-
+Go to the pocket page and add a record (click the button) and make sure that the collection name is in `sqlite.json`.
 now run in your front end terminal:
 
 ```bash
@@ -36,6 +35,7 @@ For my example I did create a posts table with the following fields:
 TODO:
 
 - [ ] Better typings (I need more time reading the docs)
+- [ ] Add types to sqlite.json in a automated way (maybe an api can do that)
 - [ ] Better error handling
 - [ ] Make it more generic (tables with some diferent names or diferent casing may break)
 
