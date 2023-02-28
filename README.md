@@ -25,3 +25,16 @@ $ npm generate-types
 ```
 
 It should generate a `db.d.ts` file with the types of your tables.
+
+For my example I did create a posts table with the following fields:
+
+``
+'json'?: Object | null;
+'text'?: string | null;
+``
+
+TODO:
+
+- [ ] Better typings (I need more time reading the docs)
+- [ ] Better error handling
+- [ ] Make it more generic (tables with some diferent names or diferent casing may break)
