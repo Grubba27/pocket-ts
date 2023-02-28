@@ -1,0 +1,13 @@
+{
+  "client": "sqlite3",
+  "connection": {
+    "filename":"../backend/pb_data/data.db"
+  },
+  "interfaceNameFormat": "${table}",
+  "filename": "db.d",
+  "tableNameCasing": "pascal",
+  "tables": [
+    "main.users",
+    "main.posts"
+  ]
+}
