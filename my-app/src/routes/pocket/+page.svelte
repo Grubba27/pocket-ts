@@ -19,27 +19,22 @@
     };
     
   }
-  const someT: DB;
   const posts = onlyCanGetFromDB("posts").create({
     json: '{"test": "test"}',
     text: "test",
   });
-  posts.
 
 </script>
 
 <div>
-  Opa mundao {k}
   <button
     on:click={async () => {
-      // example create data
       const data = {
         text: "test",
         json: '{"test": "test"}',
       };
 
       const record = await pb.collection("posts").create(data);
-      console.log("funciona", record);
     }}>Click me
   </button
   >
